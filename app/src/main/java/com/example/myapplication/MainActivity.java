@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 //Toast.makeText(getApplication(),"ttt111", Toast.LENGTH_LONG);
                 TextView t = (TextView) findViewById(R.id.textView);
 
-                t.setText("d");
+                t.setText("d2");
             }
         });
 
