@@ -21,11 +21,21 @@
     >
 
 
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="50pt"
+        android:background="@color/cardview_dark_background"
+        android:id="@+id/list"
+
+        >
+
+    </ListView>
+
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="검색"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="158dp"
         tools:layout_editor_absoluteY="409dp" />
